@@ -16,11 +16,7 @@ func Index(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Welcome to my Diablo 3 Items-API")
 }
 
-<<<<<<< Updated upstream
-// GetItems ..
-=======
 // GetItems - Get items from CSV
->>>>>>> Stashed changes
 func GetItems(w http.ResponseWriter, r *http.Request) {
 	items, err := usecase.GetItems()
 	w.Header().Set("Content-Type", "application/json")
