@@ -1,0 +1,334 @@
+﻿"id","name","path"
+"ChestArmor_Necromancer","Chest Armor","item-type/chestarmornecromancer"
+"Legs_Monk","Pants","item-type/legsmonk"
+"ChestArmor_Monk","Chest Armor","item-type/chestarmormonk"
+"UpgradeableJewel","Gem","item-type/upgradeablejewel"
+"Boots_Monk","Boots","item-type/bootsmonk"
+"ScrollBuff","Scroll","item-type/scrollbuff"
+"Scroll","Scroll","item-type/scroll"
+"Quiver","Quiver","item-type/quiver"
+"Spear","Spear","item-type/spear"
+"Scythe1H","Scythe","item-type/scythe1h"
+"Scythe2H","Two-Handed Scythe","item-type/scythe2h"
+"Gloves_Wizard","Gloves","item-type/gloveswizard"
+"Shard","Shard","item-type/shard"
+"Sword","Sword","item-type/sword"
+"Gloves_Crusader","Gloves","item-type/glovescrusader"
+"Gloves_Necromancer","Gloves","item-type/glovesnecromancer"
+"Staff","Staff","item-type/staff"
+"NecromancerOffhand","Phylactery","item-type/necromanceroffhand"
+"ChestArmor_WitchDoctor","Chest Armor","item-type/chestarmorwitchdoctor"
+"Bow","Bow","item-type/bow"
+"Mace","Mace","item-type/mace"
+"TrainingTome","Tome of Training","item-type/trainingtome"
+"Boots_WitchDoctor","Boots","item-type/bootswitchdoctor"
+"Gloves","Gloves","item-type/gloves"
+"Gem","Gem","item-type/gem"
+"Helm","Helm","item-type/helm"
+"Dye","Dye","item-type/dye"
+"Axe","Axe","item-type/axe"
+"Gold","Gold","item-type/gold"
+"Legs","Pants","item-type/legs"
+"Orb","Source","item-type/orb"
+"Shoulders_DemonHunter","Shoulders","item-type/shouldersdemonhunter"
+"Helm_DemonHunter","Helm","item-type/helmdemonhunter"
+"SpiritStone_Monk","Spirit Stone","item-type/spiritstonemonk"
+"Shoulders_WitchDoctor","Shoulders","item-type/shoulderswitchdoctor"
+"Gloves_Barbarian","Gloves","item-type/glovesbarbarian"
+"GenericChestArmor","Chest Armor","item-type/genericchestarmor"
+"Shield","Shield","item-type/shield"
+"HandXbow","Hand Crossbow","item-type/handxbow"
+"CraftingPlan_Jeweler","Jeweler Design","item-type/craftingplanjeweler"
+"Helm_Wizard","Helm","item-type/helmwizard"
+"CrusaderShield","Crusader Shield","item-type/crusadershield"
+"Gloves_Monk","Gloves","item-type/glovesmonk"
+"Shoulders_Barbarian","Shoulders","item-type/shouldersbarbarian"
+"Helm_WitchDoctor","Helm","item-type/helmwitchdoctor"
+"Gloves_DemonHunter","Gloves","item-type/glovesdemonhunter"
+"Legs_Crusader","Pants","item-type/legscrusader"
+"CraftingPlan_MysticTransmog","Transmogrify Plan","item-type/craftingplanmystictransmog"
+"GreaterShard","Greater Shard","item-type/greatershard"
+"Legs_WitchDoctor","Pants","item-type/legswitchdoctor"
+"Dagger","Dagger","item-type/dagger"
+"MysteryWeapon1H","Weapon","item-type/mysteryweapon1h"
+"CeremonialDagger","Ceremonial Knife","item-type/ceremonialdagger"
+"Helm_Necromancer","Helm","item-type/helmnecromancer"
+"Boots_Wizard","Boots","item-type/bootswizard"
+"VoodooMask","Voodoo Mask","item-type/voodoomask"
+"MysteryWeapon2H","Weapon","item-type/mysteryweapon2h"
+"EnchantressSpecial","Enchantress Focus","item-type/enchantressspecial"
+"Belt_Barbarian","Mighty Belt","item-type/beltbarbarian"
+"Amulet","Amulet","item-type/amulet"
+"Legs_Wizard","Pants","item-type/legswizard"
+"CraftingReagent","Crafting Material","item-type/craftingreagent"
+"Helm_Crusader","Helm","item-type/helmcrusader"
+"HealthPotion","Potion","item-type/healthpotion"
+"Bracers","Bracers","item-type/bracers"
+"CombatStaff","Daibo","item-type/combatstaff"
+"FistWeapon","Fist Weapon","item-type/fistweapon"
+"Boots_Barbarian","Boots","item-type/bootsbarbarian"
+"Boots_Necromancer","Boots","item-type/bootsnecromancer"
+"Helm_Barbarian","Helm","item-type/helmbarbarian"
+"CraftingPlanLegendary_Smith","Blacksmith Plan","item-type/craftingplanlegendarysmith"
+"Boots_Crusader","Boots","item-type/bootscrusader"
+"Gloves_WitchDoctor","Gloves","item-type/gloveswitchdoctor"
+"GenericHelm","Helm","item-type/generichelm"
+"ChestArmor_Wizard","Chest Armor","item-type/chestarmorwizard"
+"ChestArmor_Crusader","Chest Armor","item-type/chestarmorcrusader"
+"ScoundrelSpecial","Scoundrel Token","item-type/scoundrelspecial"
+"GenericBelt","Belt","item-type/genericbelt"
+"Legs_Necromancer","Pants","item-type/legsnecromancer"
+"Shoulders_Monk","Shoulders","item-type/shouldersmonk"
+"Shoulders_Wizard","Shoulders","item-type/shoulderswizard"
+"Boots_DemonHunter","Boots","item-type/bootsdemonhunter"
+"ChestArmor","Chest Armor","item-type/chestarmor"
+"Shoulders","Shoulders","item-type/shoulders"
+"PortalDevice","Portal Device","item-type/portaldevice"
+"Mace2H","Two-Handed Mace","item-type/mace2h"
+"Cloak","Cloak","item-type/cloak"
+"Ring","Ring","item-type/ring"
+"Wand","Wand","item-type/wand"
+"Helm_Monk","Helm","item-type/helmmonk"
+"Boots","Boots","item-type/boots"
+"Legs_DemonHunter","Pants","item-type/legsdemonhunter"
+"TemplarSpecial","Templar Relic","item-type/templarspecial"
+"Shoulders_Crusader","Shoulders","item-type/shoulderscrusader"
+"Mojo","Mojo","item-type/mojo"
+"Axe2H","Two-Handed Axe","item-type/axe2h"
+"Quest","Quest","item-type/quest"
+"ChestArmor_DemonHunter","Chest Armor","item-type/chestarmordemonhunter"
+"Flail2H","Two-Handed Flail","item-type/flail2h"
+"Flail1H","Flail","item-type/flail1h"
+"ChestArmor_Barbarian","Chest Armor","item-type/chestarmorbarbarian"
+"WizardHat","Wizard Hat","item-type/wizardhat"
+"Sword2H","Two-Handed Sword","item-type/sword2h"
+"GeneralUtility","Consumable","item-type/generalutility"
+"Crossbow","Crossbow","item-type/crossbow"
+"Polearm","Polearm","item-type/polearm"
+"Legs_Barbarian","Pants","item-type/legsbarbarian"
+"MightyWeapon2H","Two-Handed Mighty Weapon","item-type/mightyweapon2h"
+"MightyWeapon1H","Mighty Weapon","item-type/mightyweapon1h"
+"Shoulders_Necromancer","Shoulders","item-type/shouldersnecromancer"
+"CraftingPlan_Smith","Blacksmith Plan","item-type/craftingplansmith"
+"Legs_Monk","Pants","item-type/legsmonk"Helm_WitchDoctor,Helm,item-type/helmwitchdoctor
+Shoulders_Barbarian,Shoulders,item-type/shouldersbarbarian
+Legs_Crusader,Pants,item-type/legscrusader
+Gloves_Monk,Gloves,item-type/glovesmonk
+Gloves_DemonHunter,Gloves,item-type/glovesdemonhunter
+Legs_WitchDoctor,Pants,item-type/legswitchdoctor
+GreaterShard,Greater Shard,item-type/greatershard
+CraftingPlan_MysticTransmog,Transmogrify Plan,item-type/craftingplanmystictransmog
+Gloves_Necromancer,Gloves,item-type/glovesnecromancer
+Gloves_Wizard,Gloves,item-type/gloveswizard
+Quiver,Quiver,item-type/quiver
+Scythe1H,Scythe,item-type/scythe1h
+Shard,Shard,item-type/shard
+Scythe2H,Two-Handed Scythe,item-type/scythe2h
+Gloves_Crusader,Gloves,item-type/glovescrusader
+Sword,Sword,item-type/sword
+Staff,Staff,item-type/staff
+Spear,Spear,item-type/spear
+Scroll,Scroll,item-type/scroll
+NecromancerOffhand,Phylactery,item-type/necromanceroffhand
+Helm_Necromancer,Helm,item-type/helmnecromancer
+Boots_Wizard,Boots,item-type/bootswizard
+Dagger,Dagger,item-type/dagger
+MysteryWeapon1H,Weapon,item-type/mysteryweapon1h
+CeremonialDagger,Ceremonial Knife,item-type/ceremonialdagger
+EnchantressSpecial,Enchantress Focus,item-type/enchantressspecial
+VoodooMask,Voodoo Mask,item-type/voodoomask
+MysteryWeapon2H,Weapon,item-type/mysteryweapon2h
+Belt_Barbarian,Mighty Belt,item-type/beltbarbarian
+Amulet,Amulet,item-type/amulet
+GenericChestArmor,Chest Armor,item-type/genericchestarmor
+Shoulders_WitchDoctor,Shoulders,item-type/shoulderswitchdoctor
+Gloves_Barbarian,Gloves,item-type/glovesbarbarian
+Helm_DemonHunter,Helm,item-type/helmdemonhunter
+Helm_Wizard,Helm,item-type/helmwizard
+Shield,Shield,item-type/shield
+CrusaderShield,Crusader Shield,item-type/crusadershield
+SpiritStone_Monk,Spirit Stone,item-type/spiritstonemonk
+HandXbow,Hand Crossbow,item-type/handxbow
+CraftingPlan_Jeweler,Jeweler Design,item-type/craftingplanjeweler
+ChestArmor_Necromancer,Chest Armor,item-type/chestarmornecromancer
+ScrollBuff,Scroll,item-type/scrollbuff
+ChestArmor_Monk,Chest Armor,item-type/chestarmormonk
+Legs_Monk,Pants,item-type/legsmonk
+Boots_Monk,Boots,item-type/bootsmonk
+UpgradeableJewel,Gem,item-type/upgradeablejewel
+Shoulders_Monk,Shoulders,item-type/shouldersmonk
+ChestArmor_Crusader,Chest Armor,item-type/chestarmorcrusader
+Legs_Necromancer,Pants,item-type/legsnecromancer
+ChestArmor_Wizard,Chest Armor,item-type/chestarmorwizard
+Shoulders_Wizard,Shoulders,item-type/shoulderswizard
+Boots_DemonHunter,Boots,item-type/bootsdemonhunter
+ScoundrelSpecial,Scoundrel Token,item-type/scoundrelspecial
+PortalDevice,Portal Device,item-type/portaldevice
+GenericBelt,Belt,item-type/genericbelt
+ChestArmor,Chest Armor,item-type/chestarmor
+Shoulders,Shoulders,item-type/shoulders
+GenericHelm,Helm,item-type/generichelm
+Flail2H,Two-Handed Flail,item-type/flail2h
+Crossbow,Crossbow,item-type/crossbow
+Flail1H,Flail,item-type/flail1h
+ChestArmor_DemonHunter,Chest Armor,item-type/chestarmordemonhunter
+WizardHat,Wizard Hat,item-type/wizardhat
+Polearm,Polearm,item-type/polearm
+ChestArmor_Barbarian,Chest Armor,item-type/chestarmorbarbarian
+MightyWeapon2H,Two-Handed Mighty Weapon,item-type/mightyweapon2h
+Sword2H,Two-Handed Sword,item-type/sword2h
+Legs_Barbarian,Pants,item-type/legsbarbarian
+MightyWeapon1H,Mighty Weapon,item-type/mightyweapon1h
+GeneralUtility,Consumable,item-type/generalutility
+CraftingPlan_Smith,Blacksmith Plan,item-type/craftingplansmith
+Shoulders_Necromancer,Shoulders,item-type/shouldersnecromancer
+CombatStaff,Daibo,item-type/combatstaff
+Boots_Barbarian,Boots,item-type/bootsbarbarian
+Helm_Crusader,Helm,item-type/helmcrusader
+Boots_Necromancer,Boots,item-type/bootsnecromancer
+HealthPotion,Potion,item-type/healthpotion
+CraftingPlanLegendary_Smith,Blacksmith Plan,item-type/craftingplanlegendarysmith
+Gloves_WitchDoctor,Gloves,item-type/gloveswitchdoctor
+Legs_Wizard,Pants,item-type/legswizard
+Boots_Crusader,Boots,item-type/bootscrusader
+Helm_Barbarian,Helm,item-type/helmbarbarian
+Bracers,Bracers,item-type/bracers
+FistWeapon,Fist Weapon,item-type/fistweapon
+CraftingReagent,Crafting Material,item-type/craftingreagent
+Gloves,Gloves,item-type/gloves
+Gem,Gem,item-type/gem
+Dye,Dye,item-type/dye
+ChestArmor_WitchDoctor,Chest Armor,item-type/chestarmorwitchdoctor
+Helm,Helm,item-type/helm
+Mace,Mace,item-type/mace
+TrainingTome,Tome of Training,item-type/trainingtome
+Bow,Bow,item-type/bow
+Orb,Source,item-type/orb
+Boots_WitchDoctor,Boots,item-type/bootswitchdoctor
+Gold,Gold,item-type/gold
+Axe,Axe,item-type/axe
+Shoulders_DemonHunter,Shoulders,item-type/shouldersdemonhunter
+Legs,Pants,item-type/legs
+Mace2H,Two-Handed Mace,item-type/mace2h
+Ring,Ring,item-type/ring
+Wand,Wand,item-type/wand
+Helm_Monk,Helm,item-type/helmmonk
+Cloak,Cloak,item-type/cloak
+Quest,Quest,item-type/quest
+Legs_DemonHunter,Pants,item-type/legsdemonhunter
+Boots,Boots,item-type/boots
+Mojo,Mojo,item-type/mojo
+Shoulders_Crusader,Shoulders,item-type/shoulderscrusader
+TemplarSpecial,Templar Relic,item-type/templarspecial
+Axe2H,Two-Handed Axe,item-type/axe2h
+ScrollBuff,Scroll,item-type/scrollbuff
+ChestArmor_Necromancer,Chest Armor,item-type/chestarmornecromancer
+UpgradeableJewel,Gem,item-type/upgradeablejewel
+ChestArmor_Monk,Chest Armor,item-type/chestarmormonk
+Legs_Monk,Pants,item-type/legsmonk
+Boots_Monk,Boots,item-type/bootsmonk
+Gloves_Monk,Gloves,item-type/glovesmonk
+Helm_WitchDoctor,Helm,item-type/helmwitchdoctor
+Legs_Crusader,Pants,item-type/legscrusader
+GreaterShard,Greater Shard,item-type/greatershard
+Shoulders_Barbarian,Shoulders,item-type/shouldersbarbarian
+Gloves_DemonHunter,Gloves,item-type/glovesdemonhunter
+Legs_WitchDoctor,Pants,item-type/legswitchdoctor
+CraftingPlan_MysticTransmog,Transmogrify Plan,item-type/craftingplanmystictransmog
+Shard,Shard,item-type/shard
+Gloves_Necromancer,Gloves,item-type/glovesnecromancer
+Spear,Spear,item-type/spear
+Quiver,Quiver,item-type/quiver
+Scythe1H,Scythe,item-type/scythe1h
+Scroll,Scroll,item-type/scroll
+Scythe2H,Two-Handed Scythe,item-type/scythe2h
+Gloves_Wizard,Gloves,item-type/gloveswizard
+Gloves_Crusader,Gloves,item-type/glovescrusader
+Sword,Sword,item-type/sword
+Staff,Staff,item-type/staff
+NecromancerOffhand,Phylactery,item-type/necromanceroffhand
+Helm_DemonHunter,Helm,item-type/helmdemonhunter
+SpiritStone_Monk,Spirit Stone,item-type/spiritstonemonk
+Shield,Shield,item-type/shield
+CrusaderShield,Crusader Shield,item-type/crusadershield
+HandXbow,Hand Crossbow,item-type/handxbow
+Helm_Wizard,Helm,item-type/helmwizard
+GenericChestArmor,Chest Armor,item-type/genericchestarmor
+Gloves_Barbarian,Gloves,item-type/glovesbarbarian
+Shoulders_WitchDoctor,Shoulders,item-type/shoulderswitchdoctor
+CraftingPlan_Jeweler,Jeweler Design,item-type/craftingplanjeweler
+MysteryWeapon1H,Weapon,item-type/mysteryweapon1h
+Dagger,Dagger,item-type/dagger
+VoodooMask,Voodoo Mask,item-type/voodoomask
+Boots_Wizard,Boots,item-type/bootswizard
+CeremonialDagger,Ceremonial Knife,item-type/ceremonialdagger
+MysteryWeapon2H,Weapon,item-type/mysteryweapon2h
+Helm_Necromancer,Helm,item-type/helmnecromancer
+EnchantressSpecial,Enchantress Focus,item-type/enchantressspecial
+Belt_Barbarian,Mighty Belt,item-type/beltbarbarian
+Amulet,Amulet,item-type/amulet
+Gem,Gem,item-type/gem
+Dye,Dye,item-type/dye
+ChestArmor_WitchDoctor,Chest Armor,item-type/chestarmorwitchdoctor
+Shoulders_DemonHunter,Shoulders,item-type/shouldersdemonhunter
+Helm,Helm,item-type/helm
+Gloves,Gloves,item-type/gloves
+Mace,Mace,item-type/mace
+Boots_WitchDoctor,Boots,item-type/bootswitchdoctor
+Orb,Source,item-type/orb
+Gold,Gold,item-type/gold
+TrainingTome,Tome of Training,item-type/trainingtome
+Axe,Axe,item-type/axe
+Bow,Bow,item-type/bow
+Legs,Pants,item-type/legs
+Ring,Ring,item-type/ring
+Wand,Wand,item-type/wand
+Cloak,Cloak,item-type/cloak
+Mojo,Mojo,item-type/mojo
+Helm_Monk,Helm,item-type/helmmonk
+Mace2H,Two-Handed Mace,item-type/mace2h
+Shoulders_Crusader,Shoulders,item-type/shoulderscrusader
+Boots,Boots,item-type/boots
+Legs_DemonHunter,Pants,item-type/legsdemonhunter
+Quest,Quest,item-type/quest
+TemplarSpecial,Templar Relic,item-type/templarspecial
+Axe2H,Two-Handed Axe,item-type/axe2h
+Flail2H,Two-Handed Flail,item-type/flail2h
+Sword2H,Two-Handed Sword,item-type/sword2h
+Flail1H,Flail,item-type/flail1h
+ChestArmor_Barbarian,Chest Armor,item-type/chestarmorbarbarian
+Polearm,Polearm,item-type/polearm
+MightyWeapon2H,Two-Handed Mighty Weapon,item-type/mightyweapon2h
+WizardHat,Wizard Hat,item-type/wizardhat
+Crossbow,Crossbow,item-type/crossbow
+MightyWeapon1H,Mighty Weapon,item-type/mightyweapon1h
+ChestArmor_DemonHunter,Chest Armor,item-type/chestarmordemonhunter
+Legs_Barbarian,Pants,item-type/legsbarbarian
+CraftingPlan_Smith,Blacksmith Plan,item-type/craftingplansmith
+GeneralUtility,Consumable,item-type/generalutility
+Shoulders_Necromancer,Shoulders,item-type/shouldersnecromancer
+Boots_Necromancer,Boots,item-type/bootsnecromancer
+Bracers,Bracers,item-type/bracers
+Legs_Wizard,Pants,item-type/legswizard
+Helm_Crusader,Helm,item-type/helmcrusader
+CraftingPlanLegendary_Smith,Blacksmith Plan,item-type/craftingplanlegendarysmith
+HealthPotion,Potion,item-type/healthpotion
+Boots_Barbarian,Boots,item-type/bootsbarbarian
+CombatStaff,Daibo,item-type/combatstaff
+CraftingReagent,Crafting Material,item-type/craftingreagent
+Helm_Barbarian,Helm,item-type/helmbarbarian
+FistWeapon,Fist Weapon,item-type/fistweapon
+Boots_Crusader,Boots,item-type/bootscrusader
+Gloves_WitchDoctor,Gloves,item-type/gloveswitchdoctor
+Shoulders_Monk,Shoulders,item-type/shouldersmonk
+ChestArmor_Crusader,Chest Armor,item-type/chestarmorcrusader
+Legs_Necromancer,Pants,item-type/legsnecromancer
+GenericHelm,Helm,item-type/generichelm
+Shoulders_Wizard,Shoulders,item-type/shoulderswizard
+ChestArmor_Wizard,Chest Armor,item-type/chestarmorwizard
+GenericBelt,Belt,item-type/genericbelt
+ScoundrelSpecial,Scoundrel Token,item-type/scoundrelspecial
+PortalDevice,Portal Device,item-type/portaldevice
+ChestArmor,Chest Armor,item-type/chestarmor
+Boots_DemonHunter,Boots,item-type/bootsdemonhunter
+Shoulders,Shoulders,item-type/shoulders
