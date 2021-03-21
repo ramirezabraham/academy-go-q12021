@@ -59,8 +59,8 @@ func CreateUrlToken() (model.Token, *model.Error) {
 		return model.Token{}, &e
 	}
 	var token model.Token
-	error_json := json.Unmarshal(out, &token)
-	if error_json != nil {
+	errorJson := json.Unmarshal(out, &token)
+	if errorJson != nil {
 		e := model.Error{
 			Code:    http.StatusInternalServerError,
 			Message: "Couldn't execute the curl command",
@@ -94,7 +94,7 @@ func GetItemAPI(token string, urlParams url.Values) ([]model.ApiItem, *model.Err
 	queryParams.Add("region", urlParams["region"][0])
 	queryParams.Add("locale", urlParams["locale"][0])
 	req.URL.RawQuery = queryParams.Encode()
-	fmt.Println(req.URL.String())
+	// fmt.Println(req.URL.String())
 
 	resp, err := client.Do(req)
 	if err != nil {

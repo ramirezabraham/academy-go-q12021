@@ -64,6 +64,7 @@ func GetConfig(key string) (string, *model.Error) {
 	return keyData, nil
 }
 
+// OpenAndWrite - Function for opening and writing in the csv file
 func OpenAndWrite(path string) (*os.File, *model.Error) {
 	f, err := os.OpenFile(path, os.O_RDONLY|os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
 	if err != nil {
@@ -112,7 +113,7 @@ func GetItemsFromCSV() ([]model.Item, *model.Error) {
 		itemRec := model.Item{ItemID: record[0], ItemName: record[1], ItemType: record[2]}
 		items = append(items, itemRec)
 	}
-	// jsonData, err := json.Marshal(items)
+
 	if err != nil {
 		err := model.Error{
 			Code:    http.StatusInternalServerError,
@@ -164,6 +165,7 @@ func GetItemFromCSV(itemID string) (model.Item, *model.Error) {
 	return item, nil
 }
 
+// SaveItems - Function for saving items in the csv file
 func SaveItems(newItems *[]model.ApiItem) *model.Error {
 	//Getting Config
 	pathFile, errPath := GetConfig("api.path")

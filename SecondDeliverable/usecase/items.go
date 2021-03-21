@@ -17,10 +17,12 @@ func GetItem(itemID string) (model.Item, *model.Error) {
 	return csvService.GetItemFromCSV(itemID)
 }
 
+// GetToken - Get Token from Service
 func GetToken() (model.Token, *model.Error) {
 	return httpService.CreateUrlToken()
 }
 
+// GetItemsAPI - Get Items from Service
 func GetItemsAPI(token string, query url.Values) ([]model.ApiItem, *model.Error) {
 	newItems, err := httpService.GetItemAPI(token, query)
 

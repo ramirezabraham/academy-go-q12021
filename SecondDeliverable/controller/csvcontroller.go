@@ -16,11 +16,7 @@ func Index(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Welcome to my Diablo 3 Items-API")
 }
 
-<<<<<<< Updated upstream
-// GetItems ..
-=======
 // GetItems - Get items from CSV
->>>>>>> Stashed changes
 func GetItems(w http.ResponseWriter, r *http.Request) {
 	items, err := usecase.GetItems()
 	w.Header().Set("Content-Type", "application/json")
@@ -35,10 +31,6 @@ func GetItems(w http.ResponseWriter, r *http.Request) {
 func GetItem(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
 	itemID := vars["id"]
-	if itemID == "" {
-		fmt.Fprint(w, "Invalid ID")
-		return
-	}
 	item, err := usecase.GetItem(itemID)
 
 	if err != nil {
@@ -59,7 +51,6 @@ func GetToken(w http.ResponseWriter, r *http.Request) {
 		w.WriteHeader(err.Code)
 		fmt.Fprint(w, "Something happened..%v", err.Message)
 	}
-	// jsonToken := json.Unmarshal(token, &token)
 	json.NewEncoder(w).Encode(token)
 }
 
