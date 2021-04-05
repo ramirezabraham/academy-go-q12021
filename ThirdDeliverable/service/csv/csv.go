@@ -3,10 +3,11 @@ package csvservice
 import (
 	"encoding/csv"
 	"fmt"
-	"main/model"
 	"net/http"
 	"os"
 	"strconv"
+
+	"main/model"
 
 	"github.com/spf13/viper"
 )
@@ -91,6 +92,7 @@ func OpenAndWrite(path string) (*os.File, *model.Error) {
 	return f, nil
 }
 
+// AddLine - Add a new line of item data in csv file
 func AddLine(f *os.File, newItems *[]model.ApiItem) *model.Error {
 
 	w := csv.NewWriter(f)

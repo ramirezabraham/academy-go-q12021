@@ -2,12 +2,14 @@ package main
 
 import (
 	"log"
+	"net/http"
+
 	"main/controller"
 	"main/router"
+	"main/usecase"
+
 	csvservice "main/service/csv"
 	httpservice "main/service/http"
-	"main/usecase"
-	"net/http"
 )
 
 func main() {

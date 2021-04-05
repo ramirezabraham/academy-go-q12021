@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
-	"main/model"
 	"net/http"
 	"net/url"
 	"os/exec"
+
+	"main/model"
 
 	"github.com/spf13/viper"
 )
@@ -49,7 +50,7 @@ func (h *httpService) GetConfig(key string) (string, *model.Error) {
 	return keyData, nil
 }
 
-// CreateUrlToken - Creates a Token
+// CreateUrlToken - Creates a Token based on config.yaml data.
 func (h *httpService) CreateUrlToken() (model.Token, *model.Error) {
 	//Getting Config
 	clientId, errorKey := h.GetConfig("api.client_id")
@@ -65,7 +66,7 @@ func (h *httpService) CreateUrlToken() (model.Token, *model.Error) {
 	out, err := curl.Output()
 	if err != nil {
 		e := model.Error{
-			Code:    http.StatusInternalServerError,
+			Code:    http.StatusServiceUnavailable,
 			Message: "Couldn't execute the curl command",
 		}
 		return model.Token{}, &e
@@ -110,7 +111,7 @@ func (h *httpService) GetItemAPI(token string, urlParams url.Values) ([]model.Ap
 	resp, err := client.Do(req)
 	if err != nil {
 		return nil, &model.Error{
-			Code:    http.StatusInternalServerError,
+			Code:    http.StatusBadRequest,
 			Message: "Something went wrong executing your request",
 		}
 	}
@@ -118,7 +119,7 @@ func (h *httpService) GetItemAPI(token string, urlParams url.Values) ([]model.Ap
 	bodybytes, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
 		return nil, &model.Error{
-			Code:    http.StatusInternalServerError,
+			Code:    http.StatusNoContent,
 			Message: "Encountered some issues with the request response",
 		}
 	}

@@ -30,9 +30,9 @@ func New(ic usecase.NewItemsUseCase) *ItemController {
 	return &ItemController{ic}
 }
 
-// Index ..
+// Index - API index
 func (ic *ItemController) Index(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Welcome to my Diablo 3 Items-API")
+	fmt.Fprintf(w, `{ "message": "Welcome to my Diablo 3 Items-API" }`)
 }
 
 // GetItems - Get items from CSV
@@ -41,7 +41,7 @@ func (ic *ItemController) GetItems(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	if err != nil {
 		w.WriteHeader(err.Code)
-		fmt.Fprint(w, `{"Message": "Error - %v "}`, err.Message)
+		fmt.Fprint(w, http.StatusInternalServerError, err.Message)
 	}
 	json.NewEncoder(w).Encode(items)
 }
@@ -54,7 +54,7 @@ func (ic *ItemController) GetItem(w http.ResponseWriter, r *http.Request) {
 
 	if err != nil {
 		w.WriteHeader(err.Code)
-		fmt.Fprint(w, `{"Message": "Error - %v "}`, err.Message)
+		fmt.Fprint(w, http.StatusInternalServerError, err.Message)
 		return
 	}
 
@@ -68,7 +68,7 @@ func (ic *ItemController) GetToken(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Type", "application/json")
 	if err != nil {
 		w.WriteHeader(err.Code)
-		fmt.Fprint(w, `{"Message": "Error - %v "}`, err.Message)
+		fmt.Fprint(w, http.StatusInternalServerError, err.Message)
 	}
 	json.NewEncoder(w).Encode(token)
 }
@@ -107,6 +107,7 @@ func (ic *ItemController) GetItemsAPI(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(response)
 }
 
+// GetItemsConcurrently - Filter items concurrently
 func (ic *ItemController) GetItemsConcurrently(w http.ResponseWriter, r *http.Request) {
 	typeNumber := r.FormValue("type")
 	w.Header().Set("Content-Type", "application/json")

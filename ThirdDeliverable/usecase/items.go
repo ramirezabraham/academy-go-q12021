@@ -1,12 +1,14 @@
 package usecase
 
 import (
-	"main/model"
-	csvService "main/service/csv"
-	httpService "main/service/http"
 	"math"
 	"net/url"
 	"sync"
+
+	"main/model"
+
+	csvService "main/service/csv"
+	httpService "main/service/http"
 )
 
 type ItemsUseCase struct {
