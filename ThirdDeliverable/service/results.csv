@@ -1,0 +1,11 @@
+# NUMBER,ID,NAME,PATH
+1,ChestArmor_Necromancer,Chest Armor,item-type/chestarmornecromancer
+2,Legs_Monk,Pants,item-type/legsmonk
+3,ChestArmor_Monk,Chest Armor,item-type/chestarmormonk
+4,UpgradeableJewel,Gem,item-type/upgradeablejewel
+5,Boots_Monk,Boots,item-type/bootsmonk
+6,ScrollBuff,Scroll,item-type/scrollbuff
+7,Scroll,Scroll,item-type/scroll
+8,Quiver,Quiver,item-type/quiver
+9,Spear,Spear,item-type/spear
+10,Scythe1H,Scythe,item-type/scythe1h

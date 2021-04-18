@@ -1,0 +1,7 @@
+api:
+  path: "../ThirdDeliverable/service/results.csv"
+  pathSave: "../ThirdDeliverable/service/results2.csv"
+  client_id: "0fb8d8825a9748dcb4f13ae8786d9671"
+  client_secret: "hU863WnDSGKuXqYsNdmWejEBb1TrrzMw"
+  url: "https://us.api.blizzard.com/d3/data/item-type?region=us&locale=en_US"
+  base_url: "https://us.api.blizzard.com/d3/data/item-type?"
